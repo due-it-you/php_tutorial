@@ -23,4 +23,22 @@
   } else {
     echo "booleanはFALSEです。";
   }
+
+// switch文
+  $color = "red";
+
+  switch ($color) {
+    case "red":
+      echo "色は赤です。";
+      break;
+    case "blue":
+      echo "色は青です。";
+      break;
+    case "green":
+      echo "色は緑です。";
+      break;
+    default:
+      echo "色は不明です。";
+      break;
+  }
 ?>
