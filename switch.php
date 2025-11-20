@@ -15,4 +15,12 @@
   } elseif ($sample <= 5) {
     echo "sampleは5以下です。";
   }
+
+// 真偽値の判定
+  $boolean = TRUE;
+  if ($boolean) {
+    echo "booleanはTRUEです。";
+  } else {
+    echo "booleanはFALSEです。";
+  }
 ?>
