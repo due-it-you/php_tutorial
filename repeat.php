@@ -12,4 +12,9 @@
     echo "今は{$count}";
     $count++;
   } while ($count <= 10);
+
+// for制御文
+  for ($i = 1; $i <= 10; $i++){
+    echo "数字は{$i} <br />\n";
+  }
 ?>
