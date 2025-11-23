@@ -14,4 +14,9 @@
   echo $fruit[0];
   echo $fruit[1];
   echo $fruit[2];
+
+  // array関数
+  $test = array('数学', '国語');
+  echo $test[0];
+  echo $test[1];
 ?>
