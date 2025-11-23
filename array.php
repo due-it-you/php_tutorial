@@ -22,5 +22,10 @@
 
   // count関数
   $count = count($test);
-  echo $count
+  echo $count;
+
+  // foreach制御文での配列の各要素の繰り返し処理
+  foreach ($test as $name) {
+    echo $name;
+  }
 ?>
