@@ -37,4 +37,8 @@
   echo $score["数学"];
   echo $score["国語"];
   echo $score["古文"];
+
+  // array関数を用いた連想配列
+  $members = array("フロント" => "たかし", "バックエンド" => "堀北");
+  echo $members["フロント"];
 ?>
