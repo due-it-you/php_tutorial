@@ -41,4 +41,9 @@
   // array関数を用いた連想配列
   $members = array("フロント" => "たかし", "バックエンド" => "堀北");
   echo $members["フロント"];
+
+  // 連想配列の繰り返し処理
+  foreach ($members as $key => $value) {
+    echo "$key : $value";
+  }
 ?>
