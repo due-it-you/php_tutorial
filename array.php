@@ -28,4 +28,13 @@
   foreach ($test as $name) {
     echo $name;
   }
+
+  // 連想配列
+  $score["数学"] = 100;
+  $score["国語"] = 85;
+  $score["古文"] = 40;
+
+  echo $score["数学"];
+  echo $score["国語"];
+  echo $score["古文"];
 ?>
