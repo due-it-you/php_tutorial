@@ -36,4 +36,12 @@
   }
 
   echo exam(150);
+
+  function greet($name = "Danny") 
+  {
+    echo "{$name}が挨拶しています。";
+  }
+
+  greet();
+  greet("Ceroly");
 ?>
