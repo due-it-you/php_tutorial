@@ -37,6 +37,7 @@
 
   echo exam(150);
 
+  // 引数のデフォルト値
   function greet($name = "Danny") 
   {
     echo "{$name}が挨拶しています。";
@@ -44,4 +45,14 @@
 
   greet();
   greet("Ceroly");
+
+
+  function change($price, $payment)
+  {
+    $change = $price - $payment;
+    echo "支払いは{$change}です。";
+  }
+
+  // 名前付き引数
+  change(price: 1000, payment: 200);
 ?>
