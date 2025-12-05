@@ -55,4 +55,12 @@
 
   // 名前付き引数
   change(price: 1000, payment: 200);
+
+  // 無名関数 / クロージャ
+  $greet = function($name)
+  {
+    echo "{$name}さんからの挨拶です。";
+  };
+
+  $greet('タケシ');
 ?>
