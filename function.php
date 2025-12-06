@@ -76,4 +76,14 @@
   }
 
   countDown(5);
+
+
+  // 可変長引数
+  // （...を前につけることで、任意の数の引数を受け取れる）
+  function sum(...$numbers)
+  {
+    echo array_sum($numbers);
+  }
+
+  sum(1, 2, 3, 4, 5);
 ?>
