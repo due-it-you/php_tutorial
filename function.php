@@ -63,4 +63,17 @@
   };
 
   $greet('タケシ');
+
+  // 再帰関数
+  function countDown($count)
+  {
+    echo $count;
+    if ($count > 0)
+    {
+      // 自分自身を呼び出している
+      countDown($count - 1);
+    }
+  }
+
+  countDown(5);
 ?>
